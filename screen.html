@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Paint App</title>
+</head>
+
+<body>
+    <h1 class="heading">Draw your dreams</h1>
+    <div class="main">
+        <div class="color">
+            <!-- <button class="btnColor" id="btn_color">Choose Color</button> -->
+            <label for="color">Choose Color: </label>
+            <input type="color" id="color" name="favColor" class="colorItem" value="#000000">
+        </div>
+        <div class="color">
+
+            <label for="rangeInput">Choose Size: </label>
+            <input id="rangeInput" type="range" min="1" max="10" step="1" class="sizeRange" value="3">
+        </div>
+    </div>
+
+    <div id="board">
+        <canvas class="canvas" id="display"></canvas>
+    </div>
+    <div class="bottom">
+        <input type="button" id="erase" value="Erase">
+    </div>
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

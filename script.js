@@ -71,5 +71,6 @@ var onPaint = function () {
 };
 
 reset.addEventListener("click", () => {
+  console.log("Clicked");
   ctx.strokeStyle = "#e0ffff";
 });

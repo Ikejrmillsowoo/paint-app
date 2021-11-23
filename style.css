@@ -11,6 +11,30 @@ body {
      font-size: 20px;
 }
 
+.navigator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gray;
+}
+.menu {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: black;
+    /* border: 1px solid black; */
+}
+
 .heading {
     text-align: center;
     color: white;
@@ -62,6 +86,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 2%;
 }
 
 .topic {
@@ -79,6 +104,7 @@ body {
     margin: 15px;
     color: aqua;
     border: 3px solid white;
+    border-radius: 8px;
     padding: 30px;
 }
 
@@ -87,3 +113,51 @@ body {
     text-align: center;
     font-size: 2rem;
 }
+
+.btn {
+    border: 1px white solid;
+    margin: 10px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    margin: 2%;
+   color: white;
+   text-align: center;
+   width: 100%;
+}
+.footer h4 {
+    margin-bottom: 15px;
+}
+.information ul {
+   list-style: none;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     
+    
+}
+
+.information ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.infoItem {
+    border: 1px solid lightgray;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 8px;
+    margin: 15px;
+}
+

@@ -3,7 +3,7 @@ let ctx = canvas.getContext("2d");
 let colorPicker = document.querySelector("#color");
 let defaultColor = colorPicker.value;
 let size = document.getElementById("rangeInput");
-let reset = document.getElementById("reset");
+let reset = document.getElementById("erase");
 
 var board = document.getElementById("board");
 const boardItem = getComputedStyle(board);
